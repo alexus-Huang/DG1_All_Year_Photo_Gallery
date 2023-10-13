@@ -46,10 +46,12 @@ body::-webkit-scrollbar-thumb {
     height:600px;
     object-fit: cover;
     border-radius: 10px;
+    transition: box-shadow 0.65s ease-out;
 }
 #container img:hover{
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
     border-radius: 10px;
+    transition: box-shadow 0.25s ease-in;
 }
 /* If there is only 1 image on the bottom, then this code places that image to the very left to avoid having the image in the center*/
 #container::after{
