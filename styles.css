@@ -24,6 +24,18 @@ body::-webkit-scrollbar-thumb {
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
+#title::before{
+    content:"";
+    border: 2px solid black;
+    border-radius: 3%;
+    margin-right: 5vw
+}
+#title::after{
+    content:"";
+    border: 2px solid black;
+    border-radius: 3%;
+    margin-left: 5vw;
+}
 
 /* Image container */
 #container{
