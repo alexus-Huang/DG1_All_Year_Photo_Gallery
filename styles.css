@@ -41,8 +41,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #container img{
-    width:100%;
-    max-width: 740px;
+    width:max(500px,28.5vw);
     height:600px;
     object-fit: cover;
     border-radius: 10px;
