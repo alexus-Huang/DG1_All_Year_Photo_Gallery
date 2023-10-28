@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb {
 
 /* Image container */
 #container{
-    width:90%;
+    width:100%;
     height:100%;
     display: flex;
     flex-direction: row;
@@ -41,8 +41,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 #container img{
-    width:max(500px,28.5vw);
-    height:600px;
+    width:max(500px,28.9vw);
+    height:47vh;
     object-fit: cover;
     border-radius: 10px;
     transition: box-shadow 0.65s ease-out;
