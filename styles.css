@@ -46,8 +46,8 @@ body::-webkit-scrollbar-thumb {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap:20px;
-    max-width: 1500px;
+    gap:15px;
+    max-width: 3000px;
     margin:0 auto;
     padding:20px 10px;
 }
@@ -67,7 +67,7 @@ body::-webkit-scrollbar-thumb {
 /* If there is only 1 image on the bottom, then this code places that image to the very left to avoid having the image in the center*/
 #container::after{
     content:"";
-    width:740px;
+    width:0%;  /* Changed this to 0% to have the next available image be in the middle if there was only 1 image left*/
 }
 footer{
     display: flex;
