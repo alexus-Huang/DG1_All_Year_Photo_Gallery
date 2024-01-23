@@ -67,6 +67,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Vertical Photos class */
+/* This class has higher priority than the regular horizontal pictures */
 #container > .vertical_photos{
     object-fit: scale-down;
     width: auto;
