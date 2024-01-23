@@ -1,6 +1,7 @@
 *{
     margin:0px;
     padding:0px;
+    overflow-x: hidden;
 }
 /* Scrollbar */
 body::-webkit-scrollbar{
@@ -64,6 +65,17 @@ body::-webkit-scrollbar-thumb {
     border-radius: 10px;
     transition: box-shadow 0.25s ease-in;
 }
+
+/* Vertical Photos class */
+#container > .vertical_photos{
+    object-fit: scale-down;
+    width: auto;
+    height:47vh;
+    border-radius: 10px;
+    transition: box-shadow 0.65s ease-out;
+    margin:0% 2%;
+}
+
 /* If there is only 1 image on the bottom, then this code places that image to the very left to avoid having the image in the center*/
 #container::after{
     content:"";
