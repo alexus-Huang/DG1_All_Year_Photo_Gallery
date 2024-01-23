@@ -97,3 +97,20 @@ footer{
 footer > p{
     margin:0% 10% 0% 10%;
 }
+
+/* Horizontal Bar */
+/* This class can be repeatedly used in the future when other units are taught */
+#container > .horizontalBar{
+    display: block;
+    width:90%;
+    height:2%;
+    padding: 15px;
+    margin:1%;
+    background-color: rgb(49, 49, 49);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -5px;
+    font-size: 5em;
+}
